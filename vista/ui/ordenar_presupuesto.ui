@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1535</width>
+    <height>670</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+background-color: #f5fafe;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_proyecto">
+       <property name="font">
+        <font>
+         <family>Playfair Display</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Proyectos viales ordenados por el presupuesto de mayor a menor</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <item>
+          <widget class="QRadioButton" name="todos">
+           <property name="font">
+            <font>
+             <family>Playfair Display</family>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Todos</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="carretera">
+           <property name="font">
+            <font>
+             <family>Playfair Display</family>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Carretera</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="vias_ferreas">
+           <property name="font">
+            <font>
+             <family>Playfair Display</family>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Vías Férreas</string>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_2" native="true"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="tWpresupuesto">
+       <property name="styleSheet">
+        <string notr="true">QHeaderView::section:horizontal{
+background-color: rgb(26, 148, 255);
+color: #ebf2f7;
+border: none;
+font-size: 10pt
+}
+QTableWidget{
+background-color: #f5fafe;
+alternate-background-color: #f2f2f2;
+border: none
+}
+QScrollBar{
+background-color: none
+}
+
+</string>
+       </property>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Nombre</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Tipo</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Cliente</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Presupuesto</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Fecha de inicio</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Duración (meses)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Arquitecto</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Cumplimiento (%)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Tipo específico</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Longitud</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Dentro de provincia</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Altura</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Dirección</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

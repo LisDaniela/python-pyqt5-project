@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1125</width>
+    <height>766</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #f5fafe;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_5">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_4" stretch="20,15">
+     <property name="spacing">
+      <number>25</number>
+     </property>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3" stretch="9,84">
+       <property name="spacing">
+        <number>4</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,4">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>285</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <property name="spacing">
+            <number>18</number>
+           </property>
+           <item>
+            <widget class="QRadioButton" name="todos">
+             <property name="font">
+              <font>
+               <family>Playfair Display</family>
+               <pointsize>11</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Todos</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="vial">
+             <property name="font">
+              <font>
+               <family>Playfair Display</family>
+               <pointsize>11</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Vial</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="edificacion">
+             <property name="font">
+              <font>
+               <family>Playfair Display</family>
+               <pointsize>11</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Edificación</string>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_proyecto">
+           <property name="font">
+            <font>
+             <family>Playfair Display</family>
+             <pointsize>18</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Proyectos en desarrollo</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tWproyecto">
+         <property name="styleSheet">
+          <string notr="true">QHeaderView::section:horizontal{
+background-color: rgb(26, 148, 255);
+color: #ebf2f7;
+border: none;
+font-size: 10pt
+}
+QTableWidget{
+background-color: #f5fafe;
+alternate-background-color: #f2f2f2;
+border: none
+}
+QScrollBar{
+background-color: none
+}
+</string>
+         </property>
+         <property name="autoScrollMargin">
+          <number>16</number>
+         </property>
+         <property name="horizontalScrollMode">
+          <enum>QAbstractItemView::ScrollPerItem</enum>
+         </property>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>ID</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Nombre</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Tipo</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Cliente</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Presupuesto</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Fecha de inicio</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Duración (meses)</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Arquitecto</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Cumplimiento (%)</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Tipo específico</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Longitud</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Dentro de provincia</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Altura</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Dirección</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>228</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <property name="spacing">
+            <number>30</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="agregar">
+             <property name="font">
+              <font>
+               <family>Playfair Display</family>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+width: 198px;
+border: 2px solid rgb(26, 148, 255);
+padding-bottom: 3px;
+padding-top: 3px;
+border-radius: 5px
+}
+
+QPushButton:hover{
+background-color: rgb(26, 148, 255);
+color: white
+}</string>
+             </property>
+             <property name="text">
+              <string>Agregar</string>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+             <property name="checked">
+              <bool>false</bool>
+             </property>
+             <property name="autoRepeat">
+              <bool>false</bool>
+             </property>
+             <property name="autoExclusive">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="eliminar">
+             <property name="font">
+              <font>
+               <family>Playfair Display</family>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+width: 198px;
+border: 2px solid rgb(26, 148, 255);
+padding-bottom: 3px;
+padding-top: 3px;
+border-radius: 7px
+}
+
+QPushButton:hover{
+background-color: rgb(26, 148, 255);
+color: white
+}</string>
+             </property>
+             <property name="text">
+              <string>Eliminar</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="modificar">
+             <property name="font">
+              <font>
+               <family>Playfair Display</family>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+width: 198px;
+border: 2px solid rgb(26, 148, 255);
+padding-bottom: 3px;
+padding-top: 3px;
+border-radius: 7px
+}
+
+QPushButton:hover{
+background-color: rgb(26, 148, 255);
+color: white
+}</string>
+             </property>
+             <property name="text">
+              <string>Modificar</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>228</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="spacing">
+          <number>2</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="3,2">
+           <property name="spacing">
+            <number>100</number>
+           </property>
+           <property name="leftMargin">
+            <number>110</number>
+           </property>
+           <property name="rightMargin">
+            <number>120</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="font">
+              <font>
+               <family>Playfair Display</family>
+               <pointsize>11</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Clientes</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="font">
+              <font>
+               <family>Playfair Display</family>
+               <pointsize>11</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Arquitectos</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="3,2">
+           <property name="spacing">
+            <number>70</number>
+           </property>
+           <property name="leftMargin">
+            <number>110</number>
+           </property>
+           <property name="rightMargin">
+            <number>110</number>
+           </property>
+           <item>
+            <widget class="QTableWidget" name="tWcliente">
+             <property name="styleSheet">
+              <string notr="true">QHeaderView::section:horizontal{
+background-color: rgb(26, 148, 255);
+color: #ebf2f7;
+border: none;
+font-size: 10pt
+}
+QTableWidget{
+background-color: #f5fafe;
+alternate-background-color: #f2f2f2;
+border: none
+}
+QScrollBar{
+background-color: none
+}
+</string>
+             </property>
+             <attribute name="verticalHeaderVisible">
+              <bool>false</bool>
+             </attribute>
+             <column>
+              <property name="text">
+               <string>Nombre</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Sexo</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Dirección</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Tipo de entidad</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTableWidget" name="tWarquitecto">
+             <property name="styleSheet">
+              <string notr="true">QHeaderView::section:horizontal{
+background-color: rgb(26, 148, 255);
+color: #ebf2f7;
+border: none;
+font-size: 10pt
+}
+QTableWidget{
+background-color: #f5fafe;
+alternate-background-color: #f2f2f2;
+border: none
+}
+QScrollBar{
+background-color: none
+}
+</string>
+             </property>
+             <attribute name="verticalHeaderVisible">
+              <bool>false</bool>
+             </attribute>
+             <column>
+              <property name="text">
+               <string>Nombre</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Sexo</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Experiencia (años)</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

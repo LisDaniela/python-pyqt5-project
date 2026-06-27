@@ -1,0 +1,530 @@
+{
+  "Proyectos": [
+    {
+      "tipo": "edificacion",
+      "nombre": "Edificio Empresarial Centro",
+      "cliente": {
+        "direccion": {
+          "calle": "General Gómez",
+          "municipio": "Camagüey",
+          "numero": 514,
+          "provincia": "Camagüey"
+        },
+        "en_uso": true,
+        "id_": 3,
+        "nombre": "Luis Fernández",
+        "sexo": "masculino",
+        "tipo_entidad": "privada"
+      },
+      "presupuesto": 545000,
+      "codigo_identificacion": 1,
+      "fecha_inicio": "01-08-2025",
+      "duracion": 16,
+      "arquitecto": {
+        "en_uso": true,
+        "experiencia": 8,
+        "id_": 2,
+        "nombre": "Laura Martínez",
+        "sexo": "femenino"
+      },
+      "cumplimiento": 62,
+      "tipo_especifico": "oficinas",
+      "altura": 1,
+      "direccion": {
+        "calle": "San Martín",
+        "numero": 512,
+        "municipio": "Camagüey",
+        "provincia": "Camagüey"
+      }
+    },
+    {
+      "tipo": "vial",
+      "nombre": "Ferrocarril Occidental",
+      "cliente": {
+        "direccion": {
+          "calle": "8",
+          "municipio": "Centro Habana",
+          "numero": 55,
+          "provincia": "La Habana"
+        },
+        "en_uso": false,
+        "id_": 4,
+        "nombre": "María López",
+        "sexo": "femenino",
+        "tipo_entidad": "privada"
+      },
+      "presupuesto": 3000000,
+      "codigo_identificacion": 2,
+      "fecha_inicio": "12-12-2023",
+      "duracion": 40,
+      "arquitecto": {
+        "en_uso": true,
+        "experiencia": 20,
+        "id_": 3,
+        "nombre": "Miguel Hernández",
+        "sexo": "masculino"
+      },
+      "cumplimiento": 50,
+      "tipo_especifico": "vias ferreas",
+      "longitud": 420,
+      "dentro_de_provincia": "No"
+    },
+    {
+      "tipo": "edificacion",
+      "nombre": "Residencial Jardines",
+      "cliente": {
+        "direccion": {
+          "calle": "8",
+          "municipio": "Centro Habana",
+          "numero": 55,
+          "provincia": "La Habana"
+        },
+        "en_uso": true,
+        "id_": 4,
+        "nombre": "María López",
+        "sexo": "femenino",
+        "tipo_entidad": "privada"
+      },
+      "presupuesto": 7400000,
+      "codigo_identificacion": 3,
+      "fecha_inicio": "01-01-2000",
+      "duracion": 22,
+      "arquitecto": {
+        "en_uso": true,
+        "experiencia": 5,
+        "id_": 4,
+        "nombre": "Ana Rodríguez",
+        "sexo": "femenino"
+      },
+      "cumplimiento": 0,
+      "tipo_especifico": "residencia",
+      "altura": 9,
+      "direccion": {
+        "calle": "Calle 15",
+        "numero": 70,
+        "municipio": "Varadero",
+        "provincia": "Matanzas"
+      }
+    },
+    {
+      "tipo": "edificacion",
+      "nombre": "Industrias Los Coquitos",
+      "cliente": {
+        "direccion": {
+          "calle": "8",
+          "municipio": "Centro Habana",
+          "numero": 55,
+          "provincia": "La Habana"
+        },
+        "en_uso": true,
+        "id_": 4,
+        "nombre": "María López",
+        "sexo": "femenino",
+        "tipo_entidad": "privada"
+      },
+      "presupuesto": 1000000,
+      "codigo_identificacion": 4,
+      "fecha_inicio": "01-01-2000",
+      "duracion": 30,
+      "arquitecto": {
+        "en_uso": true,
+        "experiencia": 8,
+        "id_": 2,
+        "nombre": "Laura Martínez",
+        "sexo": "femenino"
+      },
+      "cumplimiento": 60,
+      "tipo_especifico": "industrial",
+      "altura": 10,
+      "direccion": {
+        "calle": "Ignacio Agramonte",
+        "numero": 647,
+        "municipio": "Camagüey",
+        "provincia": "Camagüey"
+      }
+    },
+    {
+      "tipo": "vial",
+      "nombre": "Autopista Central Oriente",
+      "cliente": {
+        "direccion": {
+          "calle": "General Gómez",
+          "municipio": "Camagüey",
+          "numero": 514,
+          "provincia": "Camagüey"
+        },
+        "en_uso": true,
+        "id_": 3,
+        "nombre": "Luis Fernández",
+        "sexo": "masculino",
+        "tipo_entidad": "privada"
+      },
+      "presupuesto": 2509000,
+      "codigo_identificacion": 5,
+      "fecha_inicio": "10-02-2024",
+      "duracion": 36,
+      "arquitecto": {
+        "en_uso": false,
+        "experiencia": 15,
+        "id_": 1,
+        "nombre": "Carlos Pérez",
+        "sexo": "masculino"
+      },
+      "cumplimiento": 40,
+      "tipo_especifico": "carretera",
+      "longitud": 350,
+      "dentro_de_provincia": "No"
+    },
+    {
+      "tipo": "vial",
+      "nombre": "Ferrocarril Norte",
+      "cliente": {
+        "direccion": {
+          "calle": "8",
+          "municipio": "Centro Habana",
+          "numero": 55,
+          "provincia": "La Habana"
+        },
+        "en_uso": true,
+        "id_": 4,
+        "nombre": "María López",
+        "sexo": "femenino",
+        "tipo_entidad": "privada"
+      },
+      "presupuesto": 18004000,
+      "codigo_identificacion": 6,
+      "fecha_inicio": "06-04-2026",
+      "duracion": 30,
+      "arquitecto": {
+        "en_uso": true,
+        "experiencia": 5,
+        "id_": 4,
+        "nombre": "Ana Rodríguez",
+        "sexo": "femenino"
+      },
+      "cumplimiento": 5,
+      "tipo_especifico": "vias ferreas",
+      "longitud": 200,
+      "dentro_de_provincia": "Si"
+    },
+    {
+      "tipo": "edificacion",
+      "nombre": "Edificio Oficinas Habana Center",
+      "cliente": {
+        "direccion": {
+          "calle": "5ta Avenida",
+          "municipio": "Playa",
+          "numero": 210,
+          "provincia": "La Habana"
+        },
+        "en_uso": true,
+        "id_": 6,
+        "nombre": "Pedro Ramírez",
+        "sexo": "masculino",
+        "tipo_entidad": "privada"
+      },
+      "presupuesto": 8000000.0,
+      "codigo_identificacion": 7,
+      "fecha_inicio": "15-01-2025",
+      "duracion": 30,
+      "arquitecto": {
+        "en_uso": true,
+        "experiencia": 8,
+        "id_": 2,
+        "nombre": "Laura Martínez",
+        "sexo": "femenino"
+      },
+      "cumplimiento": 40,
+      "tipo_especifico": "oficinas",
+      "altura": 14,
+      "direccion": {
+        "calle": "k",
+        "numero": 67,
+        "municipio": "Camagüey",
+        "provincia": "Camagüey"
+      }
+    },
+    {
+      "tipo": "edificacion",
+      "nombre": "Residencial Las Palmas",
+      "cliente": {
+        "direccion": {
+          "calle": "Ignacio Agramonte",
+          "municipio": "Camagüey",
+          "numero": 564,
+          "provincia": "Camagüey"
+        },
+        "en_uso": false,
+        "id_": 5,
+        "nombre": "Manuel Ortega",
+        "sexo": "masculino",
+        "tipo_entidad": "estatal"
+      },
+      "presupuesto": 670000,
+      "codigo_identificacion": 8,
+      "fecha_inicio": "10-03-2024",
+      "duracion": 20,
+      "arquitecto": {
+        "en_uso": true,
+        "experiencia": 5,
+        "id_": 4,
+        "nombre": "Ana Rodríguez",
+        "sexo": "femenino"
+      },
+      "cumplimiento": 100,
+      "tipo_especifico": "residencia",
+      "altura": 8,
+      "direccion": {
+        "calle": "Calle 12",
+        "numero": 88,
+        "municipio": "Cárdenas",
+        "provincia": "Matanzas"
+      }
+    },
+    {
+      "tipo": "vial",
+      "nombre": "Ferrocarril Sur",
+      "cliente": {
+        "direccion": {
+          "calle": "General Gómez",
+          "municipio": "Camagüey",
+          "numero": 514,
+          "provincia": "Camagüey"
+        },
+        "en_uso": true,
+        "id_": 3,
+        "nombre": "Luis Fernández",
+        "sexo": "masculino",
+        "tipo_entidad": "privada"
+      },
+      "presupuesto": 12000000.0,
+      "codigo_identificacion": 9,
+      "fecha_inicio": "05-05-2025",
+      "duracion": 24,
+      "arquitecto": {
+        "en_uso": true,
+        "experiencia": 12,
+        "id_": 5,
+        "nombre": "Roberto Díaz",
+        "sexo": "masculino"
+      },
+      "cumplimiento": 50,
+      "tipo_especifico": "vias ferreas",
+      "longitud": 150,
+      "dentro_de_provincia": "Si"
+    },
+    {
+      "tipo": "edificacion",
+      "nombre": "Complejo Industrial Habana",
+      "cliente": {
+        "direccion": {
+          "calle": "5ta Avenida",
+          "municipio": "Playa",
+          "numero": 210,
+          "provincia": "La Habana"
+        },
+        "en_uso": true,
+        "id_": 6,
+        "nombre": "Pedro Ramírez",
+        "sexo": "masculino",
+        "tipo_entidad": "privada"
+      },
+      "presupuesto": 20000000,
+      "codigo_identificacion": 10,
+      "fecha_inicio": "20-07-2023",
+      "duracion": 30,
+      "arquitecto": {
+        "en_uso": true,
+        "experiencia": 20,
+        "id_": 3,
+        "nombre": "Miguel Hernández",
+        "sexo": "masculino"
+      },
+      "cumplimiento": 100,
+      "tipo_especifico": "industrial",
+      "altura": 12,
+      "direccion": {
+        "calle": "Zona Industrial",
+        "numero": 12,
+        "municipio": "Marianao",
+        "provincia": "La Habana"
+      }
+    },
+    {
+      "tipo": "vial",
+      "nombre": "Vía Ferroviaria Occidental",
+      "cliente": {
+        "direccion": {
+          "calle": "General Gómez",
+          "municipio": "Camagüey",
+          "numero": 514,
+          "provincia": "Camagüey"
+        },
+        "en_uso": true,
+        "id_": 3,
+        "nombre": "Luis Fernández",
+        "sexo": "masculino",
+        "tipo_entidad": "privada"
+      },
+      "presupuesto": 30567000,
+      "codigo_identificacion": 11,
+      "fecha_inicio": "01-03-2024",
+      "duracion": 40,
+      "arquitecto": {
+        "en_uso": true,
+        "experiencia": 5,
+        "id_": 4,
+        "nombre": "Ana Rodríguez",
+        "sexo": "femenino"
+      },
+      "cumplimiento": 60,
+      "tipo_especifico": "vias ferreas",
+      "longitud": 420,
+      "dentro_de_provincia": "No"
+    },
+    {
+      "tipo": "vial",
+      "nombre": "Autopista Norte",
+      "cliente": {
+        "direccion": {
+          "calle": "Ignacio Agramonte",
+          "municipio": "Camagüey",
+          "numero": 564,
+          "provincia": "Camagüey"
+        },
+        "en_uso": true,
+        "id_": 5,
+        "nombre": "Manuel Ortega",
+        "sexo": "masculino",
+        "tipo_entidad": "estatal"
+      },
+      "presupuesto": 145666,
+      "codigo_identificacion": 12,
+      "fecha_inicio": "10-12-2025",
+      "duracion": 22,
+      "arquitecto": {
+        "en_uso": true,
+        "experiencia": 15,
+        "id_": 1,
+        "nombre": "Carlos Pérez",
+        "sexo": "masculino"
+      },
+      "cumplimiento": 18,
+      "tipo_especifico": "carretera",
+      "longitud": 180,
+      "dentro_de_provincia": "No"
+    }
+  ],
+  "Arquitectos": [
+    {
+      "id_": 1,
+      "nombre": "Carlos Pérez",
+      "sexo": "masculino",
+      "experiencia": 15,
+      "en_uso": true
+    },
+    {
+      "id_": 2,
+      "nombre": "Laura Martínez",
+      "sexo": "femenino",
+      "experiencia": 8,
+      "en_uso": true
+    },
+    {
+      "id_": 3,
+      "nombre": "Miguel Hernández",
+      "sexo": "masculino",
+      "experiencia": 20,
+      "en_uso": true
+    },
+    {
+      "id_": 4,
+      "nombre": "Ana Rodríguez",
+      "sexo": "femenino",
+      "experiencia": 5,
+      "en_uso": true
+    },
+    {
+      "id_": 5,
+      "nombre": "Roberto Díaz",
+      "sexo": "masculino",
+      "experiencia": 12,
+      "en_uso": true
+    },
+    {
+      "id_": 6,
+      "nombre": "Claudia Gómez",
+      "sexo": "femenino",
+      "experiencia": 10,
+      "en_uso": false
+    }
+  ],
+  "Clientes": [
+    {
+      "id_": 2,
+      "nombre": "Patricia Suárez",
+      "sexo": "femenino",
+      "direccion": {
+        "calle": "1ra Avenida",
+        "numero": 120,
+        "municipio": "Varadero",
+        "provincia": "Matanzas"
+      },
+      "tipo_entidad": "privada",
+      "en_uso": false
+    },
+    {
+      "id_": 3,
+      "nombre": "Luis Fernández",
+      "sexo": "masculino",
+      "direccion": {
+        "calle": "General Gómez",
+        "numero": 514,
+        "municipio": "Camagüey",
+        "provincia": "Camagüey"
+      },
+      "tipo_entidad": "privada",
+      "en_uso": true
+    },
+    {
+      "id_": 4,
+      "nombre": "María López",
+      "sexo": "femenino",
+      "direccion": {
+        "calle": "8",
+        "numero": 55,
+        "municipio": "Centro Habana",
+        "provincia": "La Habana"
+      },
+      "tipo_entidad": "privada",
+      "en_uso": true
+    },
+    {
+      "id_": 5,
+      "nombre": "Manuel Ortega",
+      "sexo": "masculino",
+      "direccion": {
+        "calle": "Ignacio Agramonte",
+        "numero": 564,
+        "municipio": "Camagüey",
+        "provincia": "Camagüey"
+      },
+      "tipo_entidad": "estatal",
+      "en_uso": true
+    },
+    {
+      "id_": 6,
+      "nombre": "Pedro Ramírez",
+      "sexo": "masculino",
+      "direccion": {
+        "calle": "5ta Avenida",
+        "numero": 210,
+        "municipio": "Playa",
+        "provincia": "La Habana"
+      },
+      "tipo_entidad": "privada",
+      "en_uso": true
+    }
+  ],
+  "Proximo codigo": 13
+}
